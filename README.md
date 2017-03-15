@@ -1,12 +1,12 @@
 # Titanic: Machine Learning from Disaster
 
-##主要处理步骤:
+## 主要处理步骤:
 1. 预处理：填补缺省值，从原column中提取信息成为新的数据栏
 2. scale to normalize the data
 4. create dummy variables to flip column and row
 5. set appropriate para for the random forest model 
 
-##解题方法：
+## 解题方法：
 1. 刚开始不知道数据之间的关系，所以用表格，相关性检验，分类平均值等探索性方法确定数据之间的关系，比如
 -  之前并不知道年纪，性别，舱位对生还有影响，需要作图来看
 -  之前并不知道familysize对生还有影响，作图，以及分类二次处理
@@ -19,6 +19,6 @@
 -  scale
 -  套用不同模型比较留下预测最好的
 
-##说明：
+## 说明：
 v1. 是分析阶段的代码草图
 v2. 是最后得出结果部分的代码
